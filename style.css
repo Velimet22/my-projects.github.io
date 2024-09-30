@@ -1,0 +1,26 @@
+body {
+    background: #111;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main__links {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+.main__title {
+    font-size: 30px;
+    color: #fff;
+}
+.main__link {
+    text-decoration: none;
+    color: #111;
+    background: #fff;
+    padding: 5px;
+    border-radius: 8px;
+}
